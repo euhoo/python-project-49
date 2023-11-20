@@ -1,7 +1,6 @@
 import prompt
 
 
-
 def print_hello():
     print('Welcome to the Brain Games!')
 
