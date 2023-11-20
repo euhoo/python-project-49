@@ -25,7 +25,7 @@ def makeRow(first, step, correctAnswerIndex, progressionLength):
         else:
             row = f'{row} {first + (step * currentIndex)}'
         currentIndex = currentIndex + 1
-    return row
+    return row[1::]
 
 
 def get_progression_game():
