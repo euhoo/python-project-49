@@ -10,6 +10,8 @@ play-calc:
 	poetry run brain-calc
 play-gcd:
 	poetry run brain-gcd
+play-progression:
+	poetry run brain-progression
 build:
 	poetry build
 publish:

@@ -23,8 +23,6 @@ def get_gcd_game():
         left = randint(1, 25)
         right = randint(1, 25)
         correctAnswer = findGCD(left, right)
-        print('correctAnswer', correctAnswer)
-
         question = f'{left} {right}'
         return [question, f'{correctAnswer}']
     return [getLogic, rule]
