@@ -35,7 +35,7 @@ def get_progression_game():
     def getLogic():
         first = randint(1, 10)
         step = randint(1, 15)
-        correctAnsIndex = randint(0, progressionLength - 1)
+        correctAnsIndex = randint(1, progressionLength - 2)
         correctAnswer = first + (step * correctAnsIndex)
         question = makeRow(first, step, correctAnsIndex, progressionLength)
         return [question, f'{correctAnswer}']
