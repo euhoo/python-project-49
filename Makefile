@@ -4,10 +4,12 @@ brain-games:
 	poetry run brain-games
 play-bg:
 	poetry run brain-games
-play-be:
+play-even:
 	poetry run brain-even
-play-bc:
+play-calc:
 	poetry run brain-calc
+play-gcd:
+	poetry run brain-gcd
 build:
 	poetry build
 publish:
