@@ -10,8 +10,8 @@ play-calc:
 	poetry run brain-calc
 play-gcd:
 	poetry run brain-gcd
-play-is-prime:
-	poetry run brain-is-prime
+play-prime:
+	poetry run brain-prime
 play-progression:
 	poetry run brain-progression
 build:
