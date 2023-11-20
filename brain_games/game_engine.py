@@ -16,6 +16,7 @@ def play(logicOfGame, ruleOfGame: str):
         answer = prompt.string('Your answer: ')
         if correctAnswer == answer:
             currentGameCounter = currentGameCounter + 1
+            print('Correct!')
         else:
             text = 'is wrong answer ;(. Correct answer was'
             print(f'{answer} {text} {correctAnswer}')
