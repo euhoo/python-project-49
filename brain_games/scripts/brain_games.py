@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-from brain_games import utils
+from brain_games.scripts.brain_even import play_even
 
 
 def main():
-    user_name = utils.get_user_name()
-    utils.print_bg()
-    utils.print_hello()
-    utils.welcome_user(user_name)
+    play_even()
 
 
 if __name__ == '__main__':
