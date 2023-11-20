@@ -1,25 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 from random import randint
-
-def print_bg():
-    print('brain-games')
-
-
-def print_hello():
-    print('Welcome to the Brain Games!')
-
-
-def get_user_name():
-    return prompt.string('May I have your name? ')
-
-
-def welcome_user(name: str):
-    print('Hello, ', name)
-
-
-def play_game(rule: str, question: str, answer: str):
-    print(rule)
+from brain_games import utils
 
 
 def chech_if_even(num: int):
@@ -66,11 +48,12 @@ def even_game(user_name: str):
             currentGameCounter = currentGameCounter + 1
     print(f'Congratulations, {user_name}!')
 
+
 def main():
-    user_name = get_user_name()
-    print_bg()
-    print_hello()
-    welcome_user(user_name)
+    user_name = utils.get_user_name()
+    utils.print_bg()
+    utils.print_hello()
+    utils.welcome_user(user_name)
     even_game(user_name)
 
 
