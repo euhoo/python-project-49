@@ -1,9 +1,6 @@
 import prompt
 
 
-def print_bg():
-    print('brain-games')
-
 
 def print_hello():
     print('Welcome to the Brain Games!')

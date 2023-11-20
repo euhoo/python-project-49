@@ -4,9 +4,8 @@ import prompt
 
 
 def play(logicOfGame, ruleOfGame: str):
-    user_name = utils.get_user_name()
-    utils.print_bg()
     utils.print_hello()
+    user_name = utils.get_user_name()
     utils.welcome_user(user_name)
     print(ruleOfGame)
     currentGameCounter = 0
