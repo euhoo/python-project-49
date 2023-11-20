@@ -12,7 +12,7 @@ def play(logicOfGame, ruleOfGame: str):
     totalGamesCounter = 3
     while currentGameCounter < totalGamesCounter:
         [question, correctAnswer] = logicOfGame()
-        print('Question: ', question)
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correctAnswer == answer:
             currentGameCounter = currentGameCounter + 1

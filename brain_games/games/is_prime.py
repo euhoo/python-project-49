@@ -21,7 +21,7 @@ def get_str_answer_by_bool_answer(answer: bool):
 
 
 def get_is_prime_game():
-    rule = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
     def getLogic():
         question = randint(1, 25)
