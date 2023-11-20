@@ -11,4 +11,4 @@ def get_user_name():
 
 
 def welcome_user(name: str):
-    print('Hello, ', name)
+    print(f'Hello, {name}!')
