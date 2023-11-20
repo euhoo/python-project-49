@@ -21,7 +21,7 @@ def makeRow(first, step, correctAnswerIndex, progressionLength):
     currentIndex = 0
     while currentIndex <= progressionLength - 1:
         if currentIndex == correctAnswerIndex:
-            row = f'{row} .. '
+            row = f'{row} ..'
         else:
             row = f'{row} {first + (step * currentIndex)}'
         currentIndex = currentIndex + 1
