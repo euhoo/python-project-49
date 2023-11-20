@@ -2,10 +2,12 @@ install:
 	poetry install
 brain-games:
 	poetry run brain-games
-bg:
+play-bg:
 	poetry run brain-games
-be:
+play-be:
 	poetry run brain-even
+play-bc:
+	poetry run brain-calc
 build:
 	poetry build
 publish:

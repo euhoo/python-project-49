@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games import game_engine
-from brain_games.games.even import get_even_game
+from brain_games.games.calc import get_calc_game
 
 
 def play():
-    [gameLogic, gameRule] = get_even_game()
+    [gameLogic, gameRule] = get_calc_game()
     game_engine.play(gameLogic, gameRule)
 
 

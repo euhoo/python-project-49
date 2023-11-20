@@ -23,11 +23,11 @@ def get_correct_answer(is_even: str):
 
 
 def get_even_game():
-    gameRule = 'Answer "yes" if the number is even, otherwise answer "no".'
+    rule = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-    def gameLogic():
+    def getLogic():
         question = randint(1, 100)
         is_even = chech_if_even(question)
         correctAnswer = get_correct_answer(is_even)
         return [question, correctAnswer]
-    return [gameLogic, gameRule]
+    return [getLogic, rule]
