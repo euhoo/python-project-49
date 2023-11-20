@@ -8,14 +8,6 @@ def chech_if_even(num: int):
     return False
 
 
-def check_if_correct(answer: str, is_even: bool):
-    if is_even is True and answer == 'yes':
-        return True
-    if is_even is False and answer == 'no':
-        return True
-    return False
-
-
 def get_correct_answer(is_even: str):
     if is_even is True:
         return 'yes'
